@@ -57,21 +57,24 @@ def station_frames(obs, directory, *, allow_empty=False):
     return {path.read_bytes() for path in files}
 
 
+# A zero following five consecutive ones is a stuffing bit. Six
+# consecutive ones inside the frame indicate invalid stuffing.
+FIVE_ONES = b'\x01' * 5
+STUFFED_ZERO = FIVE_ONES + b'\x00'
+INVALID_RUN = b'\x01' * 6
+
+
 def decode_frame(bits):
-    unstuffed = []
-    ones = 0
-    for bit in bits:
-        if ones == 5:
-            if bit:
-                return None
-            ones = 0
-            continue
-        unstuffed.append(bit)
-        ones = ones + 1 if bit else 0
+    if len(bits) < 18 * 8:
+        return None
+    wire = np.asarray(bits, dtype=np.bool_).astype(np.uint8).tobytes()
+    if INVALID_RUN in wire:
+        return None
+    unstuffed = wire.replace(STUFFED_ZERO, FIVE_ONES)
     if len(unstuffed) % 8 or len(unstuffed) < 18 * 8:
         return None
 
-    frame = np.packbits(unstuffed, bitorder='little').tobytes()
+    frame = np.packbits(np.frombuffer(unstuffed, dtype=np.uint8), bitorder='little').tobytes()
     # AX.25 uses the reflected CRC-16/X.25 with a final XOR.
     crc = binascii.crc_hqx(frame[:-2].translate(BIT_REVERSE), 0xffff)
     reflected = (BIT_REVERSE[crc & 255] << 8) | BIT_REVERSE[crc >> 8]

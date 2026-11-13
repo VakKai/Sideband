@@ -20,6 +20,14 @@ class ReceiverTests(unittest.TestCase):
         bits[0] ^= 1
         self.assertIsNone(demo.tracking.d.decode_frame(bits))
 
+    def test_vector_frame_decoding_checks_stuffing(self):
+        payload = demo.PAYLOAD + bytes.fromhex('ffffffff')
+        stuffed = demo.stuff(payload + demo.fcs(payload))
+        bits = np.array(stuffed, dtype=np.uint8)
+        self.assertEqual(demo.tracking.d.decode_frame(bits), payload)
+        invalid = np.concatenate((np.ones(6, dtype=np.uint8), bits))
+        self.assertIsNone(demo.tracking.d.decode_frame(invalid))
+
     def test_confidence_retry_repairs_one_symbol(self):
         header, kind = demo.receiver.HOUSEKEEPING[101]
         payload = demo.receiver.AX25_UI_HEADER + header + bytes(6) + bytes([kind]) + bytes(73)
