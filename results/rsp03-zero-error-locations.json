@@ -1,0 +1,56 @@
+[
+  {
+    "reference": "data_12511720_2025-10-06T10-45-00",
+    "bytes": 101,
+    "shift_hz": 0,
+    "spacing_ppm": -400,
+    "phase_samples": 1.75,
+    "payload_start_seconds": 98.96780788194445,
+    "bit_errors": 6,
+    "stuffed_bits": 825,
+    "mismatch_bit_indices": [
+      585,
+      586,
+      597,
+      598,
+      602,
+      603
+    ]
+  },
+  {
+    "reference": "data_12511720_2025-10-06T10-45-00_1",
+    "bytes": 250,
+    "shift_hz": 0,
+    "spacing_ppm": -100,
+    "phase_samples": 1.75,
+    "payload_start_seconds": 99.08706700694445,
+    "bit_errors": 6,
+    "stuffed_bits": 2092,
+    "mismatch_bit_indices": [
+      401,
+      403,
+      413,
+      415,
+      418,
+      420
+    ]
+  },
+  {
+    "reference": "data_12511720_2025-10-06T10-45-00_2",
+    "bytes": 200,
+    "shift_hz": 0,
+    "spacing_ppm": 0,
+    "phase_samples": 3.75,
+    "payload_start_seconds": 99.33829427083334,
+    "bit_errors": 6,
+    "stuffed_bits": 1637,
+    "mismatch_bit_indices": [
+      1581,
+      1582,
+      1593,
+      1594,
+      1598,
+      1599
+    ]
+  }
+]

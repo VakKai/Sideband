@@ -1,0 +1,11 @@
+{
+  "observation": "12511021",
+  "sample_rate": 57600,
+  "duration_seconds": 551.5318576388889,
+  "processing_seconds": 3.761380874999997,
+  "crc_valid_occurrences": 2,
+  "station_matched_occurrences": 2,
+  "reference_unique_payloads": 4,
+  "recovered_reference_unique_payloads": 2,
+  "limitation": "Fixed clock; no symbol timing recovery. Payload matching does not establish station occurrence timing."
+}

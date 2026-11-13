@@ -1,0 +1,20 @@
+{
+  "observation": "12511021",
+  "windows": 338,
+  "processing_seconds": 25.529491583,
+  "crc_valid_occurrences": 3,
+  "station_matched_occurrences": 3,
+  "spacing_ppm": [
+    -1000,
+    -500,
+    -200,
+    -100,
+    0,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "phase_step_samples": 0.5,
+  "limitation": "Offline bank search on automatically detected segments; not online timing recovery. No frequency correction."
+}

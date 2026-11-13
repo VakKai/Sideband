@@ -1,0 +1,20 @@
+{
+  "observation": "12511720",
+  "detected_bursts": 25,
+  "processing_seconds": 2.8424197079999995,
+  "counts": {
+    "raw": {
+      "crc_valid": 0,
+      "station_matched": 0
+    },
+    "centroid": {
+      "crc_valid": 0,
+      "station_matched": 0
+    },
+    "burst_median": {
+      "crc_valid": 0,
+      "station_matched": 0
+    }
+  },
+  "limitations": "Exploratory centroid baseline. Detector/estimator not validated on held-out passes. Timing remains fixed. Phase continuous within each detected segment only."
+}

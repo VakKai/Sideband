@@ -1,0 +1,13 @@
+{
+  "decoder": "fixed",
+  "shift_hz": -50.0,
+  "observation": "12511022",
+  "sample_rate": 57600,
+  "duration_seconds": 551.5318576388889,
+  "processing_seconds": 4.431100417000001,
+  "crc_valid_occurrences": 1,
+  "station_matched_occurrences": 1,
+  "reference_unique_payloads": 3,
+  "recovered_reference_unique_payloads": 1,
+  "limitation": "Experimental clock recovery when selected. Payload matching does not establish station occurrence timing."
+}

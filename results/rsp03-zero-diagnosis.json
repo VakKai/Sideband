@@ -1,0 +1,282 @@
+{
+  "observation": "12511720",
+  "window": [
+    98.62,
+    99.64
+  ],
+  "processing_seconds": 9.60342525,
+  "results": [
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": -200,
+      "spacing_ppm": 100,
+      "phase_samples": 2.75,
+      "payload_start_seconds": 98.96779084722223,
+      "bit_errors": 34,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": -200,
+      "spacing_ppm": 0,
+      "phase_samples": 4.25,
+      "payload_start_seconds": 99.0870529513889,
+      "bit_errors": 68,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": -200,
+      "spacing_ppm": 0,
+      "phase_samples": 3.75,
+      "payload_start_seconds": 99.33829427083334,
+      "bit_errors": 62,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": -100,
+      "spacing_ppm": -200,
+      "phase_samples": 3.75,
+      "payload_start_seconds": 98.96780804166667,
+      "bit_errors": 12,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": -100,
+      "spacing_ppm": -100,
+      "phase_samples": 1.75,
+      "payload_start_seconds": 99.08706700694445,
+      "bit_errors": 24,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": -100,
+      "spacing_ppm": 0,
+      "phase_samples": 4.25,
+      "payload_start_seconds": 99.3383029513889,
+      "bit_errors": 22,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": -50,
+      "spacing_ppm": -300,
+      "phase_samples": 0.25,
+      "payload_start_seconds": 98.96781663194444,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": -50,
+      "spacing_ppm": -200,
+      "phase_samples": 5.0,
+      "payload_start_seconds": 99.08707672222222,
+      "bit_errors": 12,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": -50,
+      "spacing_ppm": -100,
+      "phase_samples": 2.5,
+      "payload_start_seconds": 99.33830490277778,
+      "bit_errors": 12,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": -25,
+      "spacing_ppm": -300,
+      "phase_samples": 5.25,
+      "payload_start_seconds": 98.96779930208334,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": -25,
+      "spacing_ppm": -100,
+      "phase_samples": 2.0,
+      "payload_start_seconds": 99.08707134722222,
+      "bit_errors": 6,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": -25,
+      "spacing_ppm": -100,
+      "phase_samples": 2.25,
+      "payload_start_seconds": 99.33830056250001,
+      "bit_errors": 12,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": 0,
+      "spacing_ppm": -400,
+      "phase_samples": 1.75,
+      "payload_start_seconds": 98.96780788194445,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": 0,
+      "spacing_ppm": -100,
+      "phase_samples": 1.75,
+      "payload_start_seconds": 99.08706700694445,
+      "bit_errors": 6,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": 0,
+      "spacing_ppm": 0,
+      "phase_samples": 3.75,
+      "payload_start_seconds": 99.33829427083334,
+      "bit_errors": 6,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": 25,
+      "spacing_ppm": -400,
+      "phase_samples": 1.75,
+      "payload_start_seconds": 98.96780788194445,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": 25,
+      "spacing_ppm": -100,
+      "phase_samples": 1.5,
+      "payload_start_seconds": 99.08706266666667,
+      "bit_errors": 6,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": 25,
+      "spacing_ppm": -100,
+      "phase_samples": 2.5,
+      "payload_start_seconds": 99.33830490277778,
+      "bit_errors": 6,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": 50,
+      "spacing_ppm": -300,
+      "phase_samples": 5.5,
+      "payload_start_seconds": 98.96780364236112,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": 50,
+      "spacing_ppm": -100,
+      "phase_samples": 1.75,
+      "payload_start_seconds": 99.08706700694445,
+      "bit_errors": 6,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": 50,
+      "spacing_ppm": -100,
+      "phase_samples": 2.5,
+      "payload_start_seconds": 99.33830490277778,
+      "bit_errors": 6,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": 100,
+      "spacing_ppm": 300,
+      "phase_samples": 4.25,
+      "payload_start_seconds": 98.9677822326389,
+      "bit_errors": 6,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": 100,
+      "spacing_ppm": 0,
+      "phase_samples": 4.5,
+      "payload_start_seconds": 99.08705729166667,
+      "bit_errors": 18,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": 100,
+      "spacing_ppm": -100,
+      "phase_samples": 2.5,
+      "payload_start_seconds": 99.33830490277778,
+      "bit_errors": 18,
+      "stuffed_bits": 1637
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00",
+      "bytes": 101,
+      "shift_hz": 200,
+      "spacing_ppm": 200,
+      "phase_samples": 5.75,
+      "payload_start_seconds": 98.9677735138889,
+      "bit_errors": 26,
+      "stuffed_bits": 825
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_1",
+      "bytes": 250,
+      "shift_hz": 200,
+      "spacing_ppm": 0,
+      "phase_samples": 4.0,
+      "payload_start_seconds": 99.08704861111111,
+      "bit_errors": 62,
+      "stuffed_bits": 2092
+    },
+    {
+      "reference": "data_12511720_2025-10-06T10-45-00_2",
+      "bytes": 200,
+      "shift_hz": 200,
+      "spacing_ppm": 0,
+      "phase_samples": 4.0,
+      "payload_start_seconds": 99.33829861111111,
+      "bit_errors": 88,
+      "stuffed_bits": 1637
+    }
+  ],
+  "crc_valid_hypotheses": [],
+  "limitation": "Targeted/reference-assisted search on first detected burst. Not benchmark performance; does not establish physical clock/frequency error."
+}

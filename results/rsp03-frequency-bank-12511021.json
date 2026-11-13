@@ -1,0 +1,53 @@
+{
+  "observation": "12511021",
+  "shift_hz": [
+    -50,
+    -25,
+    0,
+    25,
+    50
+  ],
+  "spacing_ppm": [
+    -200,
+    -100,
+    0
+  ],
+  "phase_step_samples": 0.25,
+  "per_shift": [
+    {
+      "shift_hz": -50,
+      "crc_valid_occurrences": 2,
+      "station_matches": 2,
+      "processing_seconds": 16.887190458
+    },
+    {
+      "shift_hz": -25,
+      "crc_valid_occurrences": 4,
+      "station_matches": 3,
+      "processing_seconds": 16.777055041
+    },
+    {
+      "shift_hz": 0,
+      "crc_valid_occurrences": 4,
+      "station_matches": 3,
+      "processing_seconds": 16.80662725
+    },
+    {
+      "shift_hz": 25,
+      "crc_valid_occurrences": 4,
+      "station_matches": 4,
+      "processing_seconds": 17.488837999999994
+    },
+    {
+      "shift_hz": 50,
+      "crc_valid_occurrences": 2,
+      "station_matches": 2,
+      "processing_seconds": 18.436996292000003
+    }
+  ],
+  "union_occurrences": 5,
+  "union_station_matches": 4,
+  "zero_shift_occurrences": 4,
+  "processing_seconds": 86.396707041,
+  "limitation": "CRC-only search at inference, but grid tuned on October development data. Not an independently estimated frequency tracker or held-out benchmark. Timings exclude detector and reference loading."
+}

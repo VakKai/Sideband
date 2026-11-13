@@ -1,0 +1,183 @@
+{
+  "limitation": "Reference-assisted minimum-error search. Alignment and parameters use known payload. Not blind decoding or a tracking estimate.",
+  "processing_seconds": 1.5444810420000001,
+  "results": [
+    {
+      "shift_hz": -100,
+      "spacing_ppm": -50,
+      "phase_samples": 2.0,
+      "payload_start_seconds": 96.98145998263888,
+      "bit_errors": 16,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        960,
+        961,
+        972,
+        973,
+        977,
+        978,
+        1495,
+        1496,
+        1507,
+        1508,
+        1511,
+        1513,
+        1523,
+        1524,
+        1528,
+        1529
+      ]
+    },
+    {
+      "shift_hz": -75,
+      "spacing_ppm": -150,
+      "phase_samples": 0.25,
+      "payload_start_seconds": 96.98146760590276,
+      "bit_errors": 12,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        960,
+        961,
+        972,
+        973,
+        977,
+        978,
+        2042,
+        2043,
+        2054,
+        2055,
+        2059,
+        2060
+      ]
+    },
+    {
+      "shift_hz": -50,
+      "spacing_ppm": -100,
+      "phase_samples": 4.0,
+      "payload_start_seconds": 96.98146163194444,
+      "bit_errors": 6,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        960,
+        961,
+        972,
+        973,
+        977,
+        978
+      ]
+    },
+    {
+      "shift_hz": -25,
+      "spacing_ppm": -150,
+      "phase_samples": 0.5,
+      "payload_start_seconds": 96.98147194618055,
+      "bit_errors": 6,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        960,
+        961,
+        972,
+        973,
+        977,
+        978
+      ]
+    },
+    {
+      "shift_hz": 0,
+      "spacing_ppm": -200,
+      "phase_samples": 2.75,
+      "payload_start_seconds": 96.98147793055554,
+      "bit_errors": 6,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        2043,
+        2044,
+        2055,
+        2056,
+        2060,
+        2061
+      ]
+    },
+    {
+      "shift_hz": 25,
+      "spacing_ppm": -100,
+      "phase_samples": 4.25,
+      "payload_start_seconds": 96.98146597222221,
+      "bit_errors": 0,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": []
+    },
+    {
+      "shift_hz": 50,
+      "spacing_ppm": -150,
+      "phase_samples": 0.75,
+      "payload_start_seconds": 96.98147628645833,
+      "bit_errors": 6,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        854,
+        855,
+        866,
+        867,
+        871,
+        872
+      ]
+    },
+    {
+      "shift_hz": 75,
+      "spacing_ppm": -200,
+      "phase_samples": 3.0,
+      "payload_start_seconds": 96.98148227083333,
+      "bit_errors": 12,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        854,
+        855,
+        866,
+        867,
+        871,
+        872,
+        2043,
+        2044,
+        2055,
+        2056,
+        2060,
+        2061
+      ]
+    },
+    {
+      "shift_hz": 100,
+      "spacing_ppm": -150,
+      "phase_samples": 0.75,
+      "payload_start_seconds": 96.98147628645833,
+      "bit_errors": 24,
+      "stuffed_bits": 2093,
+      "mismatch_bit_indices": [
+        854,
+        855,
+        866,
+        867,
+        871,
+        872,
+        959,
+        960,
+        971,
+        972,
+        976,
+        977,
+        1510,
+        1511,
+        1522,
+        1523,
+        1527,
+        1528,
+        2043,
+        2044,
+        2055,
+        2056,
+        2060,
+        2061
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "profile": "compact",
+  "correction": "none",
+  "observation": "12511022",
+  "windows": 250,
+  "processing_seconds": 5.966025875000001,
+  "crc_valid_occurrences": 3,
+  "station_matched_occurrences": 3,
+  "spacing_ppm": [
+    -200,
+    -100,
+    0
+  ],
+  "phase_step_samples": 0.5,
+  "limitation": "Offline bank search on automatically detected segments; not online timing recovery. Correction, if selected, is constant per detected burst."
+}

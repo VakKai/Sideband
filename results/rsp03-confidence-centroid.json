@@ -1,0 +1,28 @@
+[
+  {
+    "observation": "12511021",
+    "shift_hz": null,
+    "correction": "centroid",
+    "reference_source": "12511021",
+    "reference_payloads": 4,
+    "hard_crc": 4,
+    "hard_verified": 3,
+    "added_verified": 1,
+    "added_unmatched": 0,
+    "processing_seconds": 22.782978041097522,
+    "retry_seconds": 8.180386533262208
+  },
+  {
+    "observation": "12512296",
+    "shift_hz": null,
+    "correction": "centroid",
+    "reference_source": "12512296",
+    "reference_payloads": 6,
+    "hard_crc": 2,
+    "hard_verified": 2,
+    "added_verified": 2,
+    "added_unmatched": 0,
+    "processing_seconds": 10.270371000049636,
+    "retry_seconds": 3.278899771394208
+  }
+]

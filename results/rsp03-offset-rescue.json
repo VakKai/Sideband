@@ -1,0 +1,24 @@
+{
+  "limitation": "Targeted development rescue; frequency/timing settings selected using known reference. Offset not independently estimated. No held-out performance claim.",
+  "results": [
+    {
+      "shift_hz": 0,
+      "spacing_ppm": -100,
+      "phase_samples": 4.25,
+      "frames": []
+    },
+    {
+      "shift_hz": 25,
+      "spacing_ppm": -100,
+      "phase_samples": 4.25,
+      "frames": [
+        {
+          "seconds": 96.98063272222221,
+          "bytes": 250,
+          "sha256": "dba6a7c96660f16e458891120c1101480801f7020d12c420064faf90edc1921c",
+          "station_match": true
+        }
+      ]
+    }
+  ]
+}

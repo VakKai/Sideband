@@ -1,0 +1,15 @@
+{
+  "observation": "12511021",
+  "window": [
+    96.32,
+    97.34
+  ],
+  "processing_seconds": 2.3102599579999996,
+  "target_recovered": false,
+  "target_hypotheses": [],
+  "unique_payloads": [
+    "666cfbf0d38ebd7aae3639bf81907b8f46bbcf0653df8d48f7e49122e200db4e",
+    "9286c52d57a6a3a3c9bc4716348639c6f306c8466ecf7712859b57fd02e09680"
+  ],
+  "limitation": "Targeted development parameter search; no frequency correction; not benchmark performance."
+}

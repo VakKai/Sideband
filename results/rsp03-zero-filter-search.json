@@ -1,0 +1,11 @@
+{
+  "observation": "12511720",
+  "window": [
+    98.62,
+    99.64
+  ],
+  "shift_hz": 0,
+  "processing_seconds": 6.845408458,
+  "hits": [],
+  "limitation": "Targeted development filter/smoothing/timing search; not benchmark performance."
+}

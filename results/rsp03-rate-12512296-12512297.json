@@ -1,0 +1,22 @@
+[
+  {
+    "observation": "12512296",
+    "sample_rate": 57600.0,
+    "bin_spacing_hz": 56.25,
+    "waterfall_end_seconds": 613.7777777777778,
+    "iq_duration_seconds": 613.9410243055555,
+    "iq_sha256": "57a3b6481e24e9d686307714d4b866d6a55c616f48ea250a2053907752d513ea",
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/3952e485-9caf-459c-be9f-0bafda06b2bd.h5",
+    "station_frame_files": 6
+  },
+  {
+    "observation": "12512297",
+    "sample_rate": 57600.0,
+    "bin_spacing_hz": 56.25,
+    "waterfall_end_seconds": 613.7777777777778,
+    "iq_duration_seconds": 613.9410243055555,
+    "iq_sha256": "c3637e79b9b4c3fbb94947c5569f251d25aaa7c8e16530ef0955289aa0495146",
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/43fdbaf9-38f0-4d7d-8b7a-511514c7c079.h5",
+    "station_frame_files": 0
+  }
+]

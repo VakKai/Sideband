@@ -1,0 +1,8 @@
+/.radio/
+/replays/
+/.venv/
+.DS_Store
+__pycache__/
+
+*.kiss
+*.log

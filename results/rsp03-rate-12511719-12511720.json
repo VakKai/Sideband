@@ -1,0 +1,28 @@
+[
+  {
+    "observation": "12511719",
+    "sample_rate": 57600.0,
+    "frequency_bins": 1024,
+    "numeric_frequency_bin_spacing": 56.25,
+    "numeric_frequency_min": -28800.0,
+    "numeric_frequency_max": 28743.75,
+    "waterfall_last_relative_seconds": 621.9555555555555,
+    "iq_duration_seconds": 622.1169791666666,
+    "iq_sha256": "e6b25c409f115ec4cd3f3811f44d6da0e41fbf80f5b7d6e47a8a05be92849cd8",
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/c2b147ff-8054-4dab-8a12-134252e8b390.h5",
+    "note": "Frequency dataset labels say kHz, but numerical values are Hz, consistent with rendered +/-28.8 kHz plot and time/sample-count check. ADC metadata 1 MHz is upstream, not the I/Q dump rate."
+  },
+  {
+    "observation": "12511720",
+    "sample_rate": 57600.0,
+    "frequency_bins": 1024,
+    "numeric_frequency_bin_spacing": 56.25,
+    "numeric_frequency_min": -28800.0,
+    "numeric_frequency_max": 28743.75,
+    "waterfall_last_relative_seconds": 621.8666666666667,
+    "iq_duration_seconds": 621.9925694444445,
+    "iq_sha256": "49d8b99ded9dbe89bfceee0e04534ae5dfce950bf3551c34a33a713701bc07d2",
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/30f6789d-bd6d-4029-bd8e-a4a9bc45dbd7.h5",
+    "note": "Frequency dataset labels say kHz, but numerical values are Hz, consistent with rendered +/-28.8 kHz plot and time/sample-count check. ADC metadata 1 MHz is upstream, not the I/Q dump rate."
+  }
+]

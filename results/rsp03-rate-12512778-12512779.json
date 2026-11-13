@@ -1,0 +1,20 @@
+[
+  {
+    "observation": "12512778",
+    "iq_sha256": "5a8d1afa78ef9afdf766c158e29e2387232ec252a3f59623eeca7986c494ca71",
+    "sample_rate": 57600.0,
+    "bin_spacing_hz": 56.25,
+    "waterfall_end_seconds": 507.3777777777778,
+    "iq_duration_seconds": 507.5130555555556,
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/0c3af9b8-2c58-4387-a574-78318e69a22b.h5"
+  },
+  {
+    "observation": "12512779",
+    "iq_sha256": "c0ba5be9d4d99d9b44d0bc0f3de0447cde1726f9f5ac6be9cf138115dc9fbd86",
+    "sample_rate": 57600.0,
+    "bin_spacing_hz": 56.25,
+    "waterfall_end_seconds": 507.2,
+    "iq_duration_seconds": 507.3120833333333,
+    "artifact_url": "https://db-satnogs.freetls.fastly.net/media/artifacts/02efb719-7420-4f7f-93f1-30b332362d6e.h5"
+  }
+]

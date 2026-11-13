@@ -1,0 +1,2 @@
+shift_hz,spacing_ppm,phase_samples,seconds,bytes,sha256,station_match
+-50,-100,5.0,227.53856661805554,17,fa0feb62d1d140fe48cd82e32fa8d884670a714d508047c4fff9f5a72dadfb2b,False
