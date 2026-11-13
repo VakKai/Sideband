@@ -14,6 +14,8 @@ Selective frequency retry recovered the same 40 and added 61% to replay time ove
 
 [Benchmark report](RSP03-final.md) · [24-second demo](results/Sideband-demo.mp4) · [Per-pass results](results/rsp03-final-passes.csv)
 
+A follow-up optimization reduced median serial confidence replay from **111.05 s to 68.40 s (1.62×)** with identical packets and timestamps. [Speed benchmark](RSP03-speed.md)
+
 ## Quickstart
 
 With Python 3.12 or 3.13, run from the project directory:
